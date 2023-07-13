@@ -1,14 +1,9 @@
-import React from 'react';
-import { Tooltip as ReactTooltip } from 'react-tooltip'
+import React from 'react'
 
-const Test = ({ children, placement = "", title = "" }) => {
+const Test = () => {
   return (
     <div>
-       <button
-  data-tooltip-id="login"
->Click me
-</button>
-<ReactTooltip id="login" place="bottom" variant='info'  content='primary'/>
+      
     </div>
   )
 }
